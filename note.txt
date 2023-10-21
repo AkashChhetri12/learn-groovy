@@ -1,0 +1,118 @@
+Groovy
+
+1. Introduction 
+
+* Java like and java compatiable syntax 
+* It run on Java platform 
+Groovy is powerful, optionally typed and dynamic language 
+with static-typing and static complination
+
+2. Hello world
+
+    using java like syntax
+
+    using dynamic syntax
+
+3. variable
+    how to define variables
+
+    how to name variables
+        - use letters, digits and underscore 
+        - case sensitive like java
+        
+    multiple assignments
+        - dynamically typed language
+
+3. Data Types
+
+    variables are used to store information and 
+    this information can be of diff type 
+
+    It is similar to java
+
+    byte
+    short
+    int 
+    double 
+    long
+    float
+    char
+    boolean
+    string
+
+4. Operators
+    https://groovy-lang.org/operators.html
+
+    1. Airthmetic
+        Normal
+        unary
+        assignment
+    2. Relational 
+    3. Logical
+        precedence
+        short circuit
+    4. bitwise
+
+    5. Conditional
+        not
+        ternary
+        elvis
+        elvis assignment
+
+5. Control Structures
+
+    5.1 Conditional Statement
+        5.1.1 If-else
+            1. If
+                if (...) {
+
+                }
+
+            2. If else
+                if ( ... ) {
+
+                }
+                else {
+
+                }
+
+            3. nested is else
+
+                if ( ... ) {
+                    ...
+                } else if (...) {
+                    ...
+                } else {
+                    ...
+                }
+
+        5.1.2 switch case
+
+    5.2 Looping 
+        5.2.1 classic for
+        5.2.2 for in 
+        5.2.3 each
+        5.2.4 while
+        5.2.5 do-while
+
+        ---- some looping keywords ----
+        upto
+        times
+        step
+
+    5.3 Exception handling
+        try-catch
+        try-finally
+        try-catch-finally
+
+
+6. Strings: https://groovy-lang.org/syntax.html#all-strings
+
+                                  Syntax           Multiline      Interpolation    Escape character
+                                        
+    - single quoted i.e.          '....'           No              No               \
+    - double quoted i.e.          "...."           No              Yes              \
+    - triple single quoted i.e.   ''' .... '''     Yes             No               \
+    - triple double quoted i.e.   """ .... """     Yes             Yes              \
+    - slashy  i.e.                /...../          Yes             Yes              \
+    - dollar slashy               $/......$/       Yes             Yes              $
