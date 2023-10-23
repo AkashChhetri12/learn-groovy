@@ -28,6 +28,12 @@
 //     println "$k.key -> $k.value"
 // }
 
+// // for each loop
+// def fruits = [ "apple", "mango", "grapes", "banana" ]
+// for (def f : fruits) {
+//     println f
+// }
+
 
 // each loop
 // list_l = [10, 13, 123]

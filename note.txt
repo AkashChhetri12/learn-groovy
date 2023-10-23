@@ -91,9 +91,10 @@ with static-typing and static complination
     5.2 Looping 
         5.2.1 classic for
         5.2.2 for in 
-        5.2.3 each
-        5.2.4 while
-        5.2.5 do-while
+        5.2.3 for each
+        5.2.4 each
+        5.2.5 while
+        5.2.6 do-while
 
         ---- some looping keywords ----
         upto
@@ -116,3 +117,113 @@ with static-typing and static complination
     - triple double quoted i.e.   """ .... """     Yes             Yes              \
     - slashy  i.e.                /...../          Yes             Yes              \
     - dollar slashy               $/......$/       Yes             Yes              $
+
+
+
+7. Lists
+
+    - It is collection
+    - It is structure to store collection of data item
+
+    syntax :
+        [ obj1 , obj2 , obj3 ] 
+
+        - obj can be of any data type
+
+        e.g. 
+
+            1. empty list 
+
+                []
+
+
+            2. list of single data type (homogenous list):
+
+                [1,2,3] - list of integers
+
+                ["mango" , "apple" , "banana" ] - list of string
+
+            
+            3. list of different data types (hetrogenous list):
+                [1 , 1.2, "groovy" , 'A' ]
+
+            
+            4. Nested list (list inside list):
+
+                [ 1, 2, ["mango" , "apple" , "banana" ], 3]
+
+
+
+8. Maps
+
+    - Map is unordered collection of object references
+    - The elements in a Map collection are accessed by a key value. 
+    - The keys used in a Map can be of any class. 
+    - When we insert into a Map collection, two values are required: 
+        the key and the value.
+    - Syntax:
+
+        [ key : value ]
+        e.g. [ 'name' : 'Akash' ]
+
+        [:] -> empty Map
+
+
+9. Ranges
+    - creates a list of sequential values
+    - A range is shorthand for specifying a sequence of values. 
+    - A Range is denoted by the first and last values in the sequence, and Range can be inclusive or exclusive. 
+    - An inclusive Range includes all the values from the first to the last, while an exclusive Range includes all values except the last.
+    - examples:
+        * 1..10 - An example of an inclusive Range
+        * 1..<10 - An example of an exclusive Range
+        * 'a'..'x' – Ranges can also consist of characters
+        * 10..1 – Ranges can also be in descending order
+        * 'x'..'a' – Ranges can also consist of characters and be in descending order.
+
+
+10. Methods
+    
+    - What is Method
+        * named block of code
+        * makes code modular and reusable
+        * can take parameters
+        * can have a return type
+
+    - How to create Method
+    - Method parameters
+    - Return type
+    - Instance method
+
+11. Closures
+
+    - What are Closures
+        Block of code that can
+        * take parameters
+        * refer variables
+        * return values
+        * can be passed as parameters in a method
+
+    - How to use Closures
+    - Why do we need Closures
+        https://marketsplash.com/tutorials/groovy/groovy-closures/#link8
+
+
+
+12. Input & Output 
+
+    1. Console
+        - Read from STDIN in Groovy
+        - Read from Console in Groovy
+        - Conversion
+
+    2. Files
+        - Reading
+            * Read file as Strings
+            * Read file as List
+            * Read file as Array
+            * Read file line by line
+            * Delete file
+
+        - Writing
+        
