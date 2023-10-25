@@ -226,4 +226,13 @@ with static-typing and static complination
             * Delete file
 
         - Writing
-        
+            * Writing Files
+            * Cloning Files
+            * Renaming
+
+13. Special Files
+    1. Json
+        * reading json string
+        * reading json file
+        * parsing api response
+

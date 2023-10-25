@@ -1,0 +1,17 @@
+{
+    "fruits": [
+        "apple",
+        "mango",
+        "banana"
+    ],
+    "colors": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+    ],
+    "details": {
+        "name": "Akash",
+        "id": "1"
+    }
+}

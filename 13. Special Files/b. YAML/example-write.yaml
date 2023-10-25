@@ -1,0 +1,17 @@
+---
+application: "Sample App Config 1"
+users:
+- name: "Akash"
+  likes:
+  - "Groovy"
+  - "Python"
+  - "Java"
+  - "Shell"
+- name: "Rahul"
+  likes:
+  - "Apples"
+  - "Bananas"
+  - "Mango"
+connections:
+- "VM1"
+- "VM2"
